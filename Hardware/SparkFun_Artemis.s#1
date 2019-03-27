@@ -2522,6 +2522,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="147.32" y1="93.98" x2="248.92" y2="93.98" width="0.2032" layer="97" style="longdash"/>
 <wire x1="0" y1="147.32" x2="60.96" y2="147.32" width="0.2032" layer="97" style="longdash"/>
 <text x="238.76" y="10.16" size="2.54" layer="94" align="top-left">v01</text>
+<text x="165.1" y="10.16" size="2.54" layer="94" align="top-left">Jim Lindblom</text>
 <text x="58.42" y="139.7" size="1.27" layer="97">Apollo3 Supply Range: 1.755-3.63V</text>
 <text x="12.7" y="144.78" size="2.54" layer="94" align="center">Ambiq Apollo3</text>
 <text x="27.94" y="182.88" size="2.54" layer="94" align="center">Apollo3 Decoupling</text>
