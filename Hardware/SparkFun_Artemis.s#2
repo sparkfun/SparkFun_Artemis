@@ -2169,9 +2169,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-1.6" y1="-0.8" x2="1.6" y2="-0.8" width="0.002540625" layer="51"/>
 <wire x1="-1.092" y1="-0.9016" x2="1.092" y2="-0.9016" width="0.2032" layer="21"/>
 <wire x1="1.092" y1="0.9016" x2="-1.092" y2="0.9016" width="0.2032" layer="21"/>
-<wire x1="-2.3112" y1="0.8" x2="-2.3112" y2="-0.8" width="0.2032" layer="21"/>
-<wire x1="2.3112" y1="-0.8" x2="2.3112" y2="0.8" width="0.2032" layer="21"/>
-<circle x="-1.6764" y="-1.3208" radius="0.254" width="0" layer="21"/>
+<circle x="-2.54" y="0" radius="0.254" width="0" layer="21"/>
 <rectangle x1="-3.333" y1="-1.995" x2="3.321" y2="1.881" layer="42"/>
 <rectangle x1="-3.333" y1="-1.995" x2="3.321" y2="1.881" layer="41"/>
 <rectangle x1="-3.333" y1="-1.995" x2="3.321" y2="1.881" layer="41"/>
@@ -2490,6 +2488,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J37" library="Module-Pads" deviceset="PAD" device=""/>
 <part name="J38" library="Module-Pads" deviceset="PAD" device=""/>
 <part name="J39" library="Module-Pads" deviceset="PAD" device=""/>
+<part name="J40" library="Module-Pads" deviceset="PAD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2878,6 +2877,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="J39" gate="G$1" x="226.06" y="119.38" smashed="yes">
 <attribute name="NAME" x="225.044" y="119.634" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="229.87" y="118.618" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="J40" gate="G$1" x="226.06" y="116.84" smashed="yes">
+<attribute name="NAME" x="225.044" y="117.094" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="229.87" y="116.078" size="1.778" layer="96" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -3610,6 +3613,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J39" gate="G$1" pin="1"/>
 <wire x1="226.06" y1="119.38" x2="223.52" y2="119.38" width="0.1524" layer="91"/>
 <label x="223.52" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="~D22" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="GPIO22"/>
+<wire x1="96.52" y1="78.74" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
+<label x="99.06" y="78.74" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J40" gate="G$1" pin="1"/>
+<wire x1="226.06" y1="116.84" x2="223.52" y2="116.84" width="0.1524" layer="91"/>
+<label x="223.52" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

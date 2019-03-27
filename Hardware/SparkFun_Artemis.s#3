@@ -2169,7 +2169,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-1.6" y1="-0.8" x2="1.6" y2="-0.8" width="0.002540625" layer="51"/>
 <wire x1="-1.092" y1="-0.9016" x2="1.092" y2="-0.9016" width="0.2032" layer="21"/>
 <wire x1="1.092" y1="0.9016" x2="-1.092" y2="0.9016" width="0.2032" layer="21"/>
-<circle x="-2.54" y="0" radius="0.254" width="0" layer="21"/>
+<wire x1="-2.3112" y1="0.8" x2="-2.3112" y2="-0.8" width="0.2032" layer="21"/>
+<wire x1="2.3112" y1="-0.8" x2="2.3112" y2="0.8" width="0.2032" layer="21"/>
+<circle x="-1.6764" y="-1.3208" radius="0.254" width="0" layer="21"/>
 <rectangle x1="-3.333" y1="-1.995" x2="3.321" y2="1.881" layer="42"/>
 <rectangle x1="-3.333" y1="-1.995" x2="3.321" y2="1.881" layer="41"/>
 <rectangle x1="-3.333" y1="-1.995" x2="3.321" y2="1.881" layer="41"/>
@@ -2488,10 +2490,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J37" library="Module-Pads" deviceset="PAD" device=""/>
 <part name="J38" library="Module-Pads" deviceset="PAD" device=""/>
 <part name="J39" library="Module-Pads" deviceset="PAD" device=""/>
-<part name="J40" library="Module-Pads" deviceset="PAD" device=""/>
-<part name="J41" library="Module-Pads" deviceset="PAD" device=""/>
-<part name="J42" library="Module-Pads" deviceset="PAD" device=""/>
-<part name="J43" library="Module-Pads" deviceset="PAD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2525,6 +2523,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="147.32" y1="93.98" x2="248.92" y2="93.98" width="0.2032" layer="97" style="longdash"/>
 <wire x1="0" y1="147.32" x2="60.96" y2="147.32" width="0.2032" layer="97" style="longdash"/>
 <text x="238.76" y="10.16" size="2.54" layer="94" align="top-left">v01</text>
+<text x="165.1" y="10.16" size="2.54" layer="94" align="top-left">Jim Lindblom</text>
 <text x="58.42" y="139.7" size="1.27" layer="97">Apollo3 Supply Range: 1.755-3.63V</text>
 <text x="12.7" y="144.78" size="2.54" layer="94" align="center">Ambiq Apollo3</text>
 <text x="27.94" y="182.88" size="2.54" layer="94" align="center">Apollo3 Decoupling</text>
@@ -2552,7 +2551,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="83.82" y="73.66" size="1.27" layer="91" align="center-right">32kHz</text>
 <text x="83.82" y="35.56" size="1.27" layer="91" align="center-right">~SCK4</text>
 <text x="83.82" y="33.02" size="1.27" layer="91" align="center-right">MISO4</text>
-<text x="83.82" y="124.46" size="1.27" layer="91" align="center-right">~</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="73.66" y="73.66" smashed="yes">
@@ -2880,22 +2878,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="J39" gate="G$1" x="226.06" y="119.38" smashed="yes">
 <attribute name="NAME" x="225.044" y="119.634" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="229.87" y="118.618" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="J40" gate="G$1" x="226.06" y="116.84" smashed="yes">
-<attribute name="NAME" x="225.044" y="117.094" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="229.87" y="116.078" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="J41" gate="G$1" x="226.06" y="114.3" smashed="yes">
-<attribute name="NAME" x="225.044" y="114.554" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="229.87" y="113.538" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="J42" gate="G$1" x="226.06" y="111.76" smashed="yes">
-<attribute name="NAME" x="225.044" y="112.014" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="229.87" y="110.998" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="J43" gate="G$1" x="226.06" y="109.22" smashed="yes">
-<attribute name="NAME" x="225.044" y="109.474" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="229.87" y="108.458" size="1.778" layer="96" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -3628,54 +3610,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J39" gate="G$1" pin="1"/>
 <wire x1="226.06" y1="119.38" x2="223.52" y2="119.38" width="0.1524" layer="91"/>
 <label x="223.52" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="~D22" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO22"/>
-<wire x1="96.52" y1="78.74" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
-<label x="99.06" y="78.74" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J40" gate="G$1" pin="1"/>
-<wire x1="226.06" y1="116.84" x2="223.52" y2="116.84" width="0.1524" layer="91"/>
-<label x="223.52" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="~D4" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO4"/>
-<wire x1="96.52" y1="124.46" x2="99.06" y2="124.46" width="0.1524" layer="91"/>
-<label x="99.06" y="124.46" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J41" gate="G$1" pin="1"/>
-<wire x1="226.06" y1="114.3" x2="223.52" y2="114.3" width="0.1524" layer="91"/>
-<label x="223.52" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="D8" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO8"/>
-<wire x1="96.52" y1="114.3" x2="99.06" y2="114.3" width="0.1524" layer="91"/>
-<label x="99.06" y="114.3" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J42" gate="G$1" pin="1"/>
-<wire x1="226.06" y1="111.76" x2="223.52" y2="111.76" width="0.1524" layer="91"/>
-<label x="223.52" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="D10" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO10"/>
-<wire x1="96.52" y1="109.22" x2="99.06" y2="109.22" width="0.1524" layer="91"/>
-<label x="99.06" y="109.22" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J43" gate="G$1" pin="1"/>
-<wire x1="226.06" y1="109.22" x2="223.52" y2="109.22" width="0.1524" layer="91"/>
-<label x="223.52" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
