@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -165,10 +165,6 @@
 <smd name="1" x="0" y="0" dx="0.35" dy="0.35" layer="1"/>
 </package>
 <package name="ARTEMIS">
-<wire x1="-7.5" y1="-5" x2="7.5" y2="-5" width="0.127" layer="20"/>
-<wire x1="7.5" y1="-5" x2="7.5" y2="5" width="0.127" layer="20"/>
-<wire x1="7.5" y1="5" x2="-7.5" y2="5" width="0.127" layer="20"/>
-<wire x1="-7.5" y1="5" x2="-7.5" y2="-5" width="0.127" layer="20"/>
 <rectangle x1="-6.2" y1="-4.8" x2="-5.8" y2="-4.2" layer="51"/>
 <rectangle x1="-5.2" y1="-4.8" x2="-4.8" y2="-4.2" layer="51"/>
 <rectangle x1="-3.2" y1="-4.8" x2="-2.8" y2="-4.2" layer="51"/>
@@ -196,7 +192,7 @@
 <rectangle x1="-2.7" y1="3.4" x2="-2.3" y2="4" layer="51" rot="R180"/>
 <rectangle x1="-3.2" y1="4.2" x2="-2.8" y2="4.8" layer="51" rot="R180"/>
 <rectangle x1="-3.7" y1="3.4" x2="-3.3" y2="4" layer="51" rot="R180"/>
-<rectangle x1="-4.1" y1="4.2" x2="-3.7" y2="4.8" layer="51" rot="R180"/>
+<rectangle x1="-4.2" y1="4.2" x2="-3.8" y2="4.8" layer="51" rot="R180"/>
 <rectangle x1="-4.7" y1="3.4" x2="-4.3" y2="4" layer="51" rot="R180"/>
 <rectangle x1="-5.2" y1="4.2" x2="-4.8" y2="4.8" layer="51" rot="R180"/>
 <rectangle x1="-5.7" y1="3.4" x2="-5.3" y2="4" layer="51" rot="R180"/>
@@ -251,7 +247,7 @@
 <smd name="13" x="-2.5" y="3.7" dx="0.4" dy="0.6" layer="1"/>
 <smd name="14" x="-3" y="4.5" dx="0.4" dy="0.6" layer="1"/>
 <smd name="15" x="-3.5" y="3.7" dx="0.4" dy="0.6" layer="1"/>
-<smd name="16" x="-3.9" y="4.5" dx="0.4" dy="0.6" layer="1"/>
+<smd name="16" x="-4" y="4.5" dx="0.4" dy="0.6" layer="1"/>
 <smd name="17" x="-4.5" y="3.7" dx="0.4" dy="0.6" layer="1"/>
 <smd name="18" x="-5" y="4.5" dx="0.4" dy="0.6" layer="1"/>
 <smd name="19" x="-5.5" y="3.7" dx="0.4" dy="0.6" layer="1"/>
@@ -298,31 +294,31 @@
 <pin name="GND" x="-15.24" y="-50.8" length="short"/>
 <pin name="~D44" x="35.56" y="10.16" length="short" rot="R180"/>
 <pin name="D38" x="35.56" y="-27.94" length="short" rot="R180"/>
-<pin name="D40" x="35.56" y="12.7" length="short" rot="R180"/>
-<pin name="~D39" x="35.56" y="15.24" length="short" rot="R180"/>
+<pin name="SDA" x="35.56" y="12.7" length="short" rot="R180"/>
+<pin name="SCL" x="35.56" y="15.24" length="short" rot="R180"/>
 <pin name="BOOT" x="-15.24" y="22.86" length="short"/>
 <pin name="RXI-0" x="-15.24" y="17.78" length="short"/>
 <pin name="TXO-0" x="-15.24" y="20.32" length="short"/>
 <pin name="D10" x="35.56" y="-48.26" length="short" rot="R180"/>
 <pin name="D8" x="35.56" y="-45.72" length="short" rot="R180"/>
-<pin name="~D5" x="35.56" y="27.94" length="short" rot="R180"/>
-<pin name="D7" x="35.56" y="30.48" length="short" rot="R180"/>
-<pin name="~D6" x="35.56" y="33.02" length="short" rot="R180"/>
+<pin name="SCK" x="35.56" y="27.94" length="short" rot="R180"/>
+<pin name="MOSI" x="35.56" y="30.48" length="short" rot="R180"/>
+<pin name="MISO" x="35.56" y="33.02" length="short" rot="R180"/>
 <pin name="~D4" x="35.56" y="-43.18" length="short" rot="R180"/>
-<pin name="~D27" x="35.56" y="-2.54" length="short" rot="R180"/>
+<pin name="~D27" x="35.56" y="-15.24" length="short" rot="R180"/>
 <pin name="~D22" x="35.56" y="-40.64" length="short" rot="R180"/>
-<pin name="~AD35" x="35.56" y="-12.7" length="short" rot="R180"/>
-<pin name="~AD32" x="35.56" y="-10.16" length="short" rot="R180"/>
-<pin name="~D24" x="35.56" y="22.86" length="short" rot="R180"/>
-<pin name="~D25" x="35.56" y="20.32" length="short" rot="R180"/>
-<pin name="~D28" x="35.56" y="-5.08" length="short" rot="R180"/>
-<pin name="~D26" x="35.56" y="-17.78" length="short" rot="R180"/>
+<pin name="~AD35" x="35.56" y="-7.62" length="short" rot="R180"/>
+<pin name="~AD32" x="35.56" y="-5.08" length="short" rot="R180"/>
+<pin name="TX1" x="35.56" y="22.86" length="short" rot="R180"/>
+<pin name="RX1" x="35.56" y="20.32" length="short" rot="R180"/>
+<pin name="~D28" x="35.56" y="-17.78" length="short" rot="R180"/>
+<pin name="~D26" x="35.56" y="-20.32" length="short" rot="R180"/>
 <pin name="~AD12" x="35.56" y="2.54" length="short" rot="R180"/>
 <pin name="~AD13" x="35.56" y="0" length="short" rot="R180"/>
-<pin name="~AD31" x="35.56" y="-20.32" length="short" rot="R180"/>
+<pin name="~AD31" x="35.56" y="-10.16" length="short" rot="R180"/>
 <pin name="~AD33/SWO" x="-15.24" y="12.7" length="short"/>
 <pin name="~AD11" x="35.56" y="5.08" length="short" rot="R180"/>
-<pin name="~AD29" x="35.56" y="-7.62" length="short" rot="R180"/>
+<pin name="~AD29" x="35.56" y="-2.54" length="short" rot="R180"/>
 <pin name="XO" x="-15.24" y="2.54" length="short"/>
 <pin name="XI" x="-15.24" y="0" length="short"/>
 <pin name="!RST" x="-15.24" y="27.94" length="short"/>
@@ -346,14 +342,14 @@
 <text x="23.749" y="5.08" size="1.27" layer="97" align="center-right">A/P</text>
 <text x="23.749" y="2.54" size="1.27" layer="97" align="center-right">A/P</text>
 <text x="23.749" y="0" size="1.27" layer="97" align="center-right">A/P/I2S</text>
-<text x="23.749" y="-2.54" size="1.27" layer="97" align="center-right">P/SCL2/SCK2</text>
-<text x="23.749" y="-5.08" size="1.27" layer="97" align="center-right">P/MOSI2/I2SWCLK</text>
-<text x="23.749" y="-7.62" size="1.27" layer="97" align="center-right">A/P/PDMDATA</text>
-<text x="23.749" y="-10.16" size="1.27" layer="97" align="center-right">A/P/SCIO</text>
-<text x="23.749" y="-12.7" size="1.27" layer="97" align="center-right">A/P/I2SDAT</text>
+<text x="23.749" y="-15.24" size="1.27" layer="97" align="center-right">P/SCL2/SCK2</text>
+<text x="23.749" y="-17.78" size="1.27" layer="97" align="center-right">P/MOSI2/I2SWCLK</text>
+<text x="23.749" y="-2.54" size="1.27" layer="97" align="center-right">A/P/PDMDATA</text>
+<text x="23.749" y="-5.08" size="1.27" layer="97" align="center-right">A/P/SCIO</text>
+<text x="23.749" y="-7.62" size="1.27" layer="97" align="center-right">A/P/I2SDAT</text>
 <text x="23.749" y="10.16" size="1.27" layer="97" align="center-right">P/MOSI4</text>
-<text x="23.749" y="-17.78" size="1.27" layer="97" align="center-right">P/CTS1/SCRST</text>
-<text x="23.749" y="-20.32" size="1.27" layer="97" align="center-right">P/A/RTS1/SCCLK</text>
+<text x="23.749" y="-20.32" size="1.27" layer="97" align="center-right">P/CTS1/SCRST</text>
+<text x="23.749" y="-10.16" size="1.27" layer="97" align="center-right">P/A/RTS1/SCCLK</text>
 <text x="23.749" y="-25.4" size="1.27" layer="97" align="center-right">P/A/SDA3/MISO3/RX1</text>
 <text x="23.749" y="-27.94" size="1.27" layer="97" align="center-right">MOSI3/RX1</text>
 <text x="23.749" y="-30.48" size="1.27" layer="97" align="center-right">P/SCL3/SCK3/TX1</text>
@@ -390,7 +386,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ARTEMIS_FULL">
+<deviceset name="ARTEMIS_FULL" prefix="U">
 <gates>
 <gate name="G$1" symbol="ARTEMIS" x="-10.16" y="7.62"/>
 </gates>
@@ -402,14 +398,19 @@
 <connect gate="G$1" pin="D10" pad="9"/>
 <connect gate="G$1" pin="D36" pad="43"/>
 <connect gate="G$1" pin="D38" pad="3"/>
-<connect gate="G$1" pin="D40" pad="4"/>
-<connect gate="G$1" pin="D7" pad="12"/>
 <connect gate="G$1" pin="D8" pad="10"/>
 <connect gate="G$1" pin="D9" pad="48"/>
 <connect gate="G$1" pin="GND" pad="1 20 21 36 37 38 39 40 45"/>
+<connect gate="G$1" pin="MISO" pad="13"/>
+<connect gate="G$1" pin="MOSI" pad="12"/>
+<connect gate="G$1" pin="RX1" pad="22"/>
 <connect gate="G$1" pin="RXI-0" pad="7"/>
+<connect gate="G$1" pin="SCK" pad="11"/>
+<connect gate="G$1" pin="SCL" pad="5"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
 <connect gate="G$1" pin="SWDCK" pad="47"/>
 <connect gate="G$1" pin="SWDIO" pad="46"/>
+<connect gate="G$1" pin="TX1" pad="19"/>
 <connect gate="G$1" pin="TXO-0" pad="8"/>
 <connect gate="G$1" pin="VDD" pad="34 35"/>
 <connect gate="G$1" pin="XI" pad="32"/>
@@ -423,19 +424,14 @@
 <connect gate="G$1" pin="~AD33/SWO" pad="28"/>
 <connect gate="G$1" pin="~AD35" pad="17"/>
 <connect gate="G$1" pin="~D22" pad="16"/>
-<connect gate="G$1" pin="~D24" pad="19"/>
-<connect gate="G$1" pin="~D25" pad="22"/>
 <connect gate="G$1" pin="~D26" pad="24"/>
 <connect gate="G$1" pin="~D27" pad="15"/>
 <connect gate="G$1" pin="~D28" pad="23"/>
 <connect gate="G$1" pin="~D37" pad="44"/>
-<connect gate="G$1" pin="~D39" pad="5"/>
 <connect gate="G$1" pin="~D4" pad="14"/>
 <connect gate="G$1" pin="~D42" pad="42"/>
 <connect gate="G$1" pin="~D43" pad="41"/>
 <connect gate="G$1" pin="~D44" pad="2"/>
-<connect gate="G$1" pin="~D5" pad="11"/>
-<connect gate="G$1" pin="~D6" pad="13"/>
 </connects>
 <technologies>
 <technology name=""/>
