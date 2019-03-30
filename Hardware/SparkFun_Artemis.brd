@@ -42,7 +42,7 @@
 <layer number="46" name="Milling" color="12" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="RF_Shield2" color="63" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="RF_Shield_Dimensions2" color="47" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="29" fill="1" visible="no" active="yes"/>
@@ -165,7 +165,6 @@
 <text x="40" y="7" size="1.778" layer="51" font="vector" ratio="15">This is a 4-layer board</text>
 <wire x1="11.8" y1="2.4" x2="11.8" y2="4.15" width="0.5" layer="46"/>
 <text x="40" y="5" size="1.778" layer="51" font="vector" ratio="15">0.8mm Thick FR4</text>
-<text x="28" y="-13" size="1.778" layer="21" font="vector" ratio="15">N. Seidle</text>
 <wire x1="0.4" y1="1" x2="0.4" y2="0.4" width="0.5" layer="48"/>
 <wire x1="0.4" y1="9.6" x2="0.4" y2="8.6" width="0.5" layer="48"/>
 <wire x1="0.4" y1="0.4" x2="3.1" y2="0.4" width="0.5" layer="48"/>
@@ -320,6 +319,8 @@
 <wire x1="11.8" y1="0.4" x2="0.4" y2="0.4" width="0.05" layer="50"/>
 <wire x1="0.4" y1="0.4" x2="0.4" y2="9.6" width="0.05" layer="50"/>
 <text x="20.2" y="1.4" size="0.9" layer="50" font="vector" ratio="15">Alignment Leg Height: 1.8-1.9mm </text>
+<text x="27.559" y="-13.208" size="1.778" layer="51" font="vector" ratio="15">N. Seidle</text>
+<dimension x1="0.4" y1="1" x2="0.4" y2="0.4" x3="-2.3" y3="0.7" textsize="0.5" textratio="15" layer="50" width="0.05" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -419,47 +420,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.378" y="0.357"/>
 <vertex x="0.358" y="0.377"/>
 <vertex x="0.298" y="0.427"/>
-</polygon>
-</package>
-<package name="OSHW-LOGO-S">
-<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Small - Silkscreen&lt;/h3&gt;
-&lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
-&lt;p&gt;Devices using:
-&lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
-<polygon width="0.15" layer="21">
-<vertex x="0.3947" y="-0.9528" curve="9.498218"/>
-<vertex x="0.5465" y="-0.8746"/>
-<vertex x="0.9235" y="-1.182"/>
-<vertex x="1.182" y="-0.9235"/>
-<vertex x="0.8746" y="-0.5465" curve="19.000773"/>
-<vertex x="1.0049" y="-0.232"/>
-<vertex x="1.4888" y="-0.1828"/>
-<vertex x="1.4888" y="0.1828"/>
-<vertex x="1.0049" y="0.232" curve="19.000773"/>
-<vertex x="0.8746" y="0.5465"/>
-<vertex x="1.182" y="0.9235"/>
-<vertex x="0.9235" y="1.182"/>
-<vertex x="0.5465" y="0.8746" curve="19.000773"/>
-<vertex x="0.232" y="1.0049"/>
-<vertex x="0.1828" y="1.4888"/>
-<vertex x="-0.1828" y="1.4888"/>
-<vertex x="-0.232" y="1.0049" curve="19.000773"/>
-<vertex x="-0.5465" y="0.8746"/>
-<vertex x="-0.9235" y="1.182"/>
-<vertex x="-1.182" y="0.9235"/>
-<vertex x="-0.8746" y="0.5465" curve="19.000773"/>
-<vertex x="-1.0049" y="0.232"/>
-<vertex x="-1.4888" y="0.1828"/>
-<vertex x="-1.4888" y="-0.1828"/>
-<vertex x="-1.0049" y="-0.232" curve="19.000773"/>
-<vertex x="-0.8746" y="-0.5465"/>
-<vertex x="-1.182" y="-0.9235"/>
-<vertex x="-0.9235" y="-1.182"/>
-<vertex x="-0.5465" y="-0.8746" curve="9.498218"/>
-<vertex x="-0.3947" y="-0.9528"/>
-<vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
-<vertex x="-0.4688" y="0" curve="-247.473915"/>
-<vertex x="0.1794" y="-0.4331"/>
 </polygon>
 </package>
 </packages>
@@ -1291,7 +1251,6 @@ design rules under a new name.</description>
 <element name="J43" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="7" y="8.7" smashed="yes" rot="MR270"/>
 <element name="J44" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="0.5" y="8.5" smashed="yes" rot="MR0"/>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_INTERNAL_0.05" value="SFE_LOGO_FLAME.05_INCH_INTERNAL" x="9.1" y="8.4" smashed="yes"/>
-<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="42" y="11" smashed="yes"/>
 <element name="J46" library="Module-Pads" package="MODULE_MINI_PAD" value="PAD.35X.35" x="6.9" y="7.5" smashed="yes" rot="MR0"/>
 <element name="J45" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="2.5" y="0.5" smashed="yes" rot="MR90"/>
 <element name="J47" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="4.5" y="0.5" smashed="yes" rot="MR90"/>
@@ -1537,10 +1496,10 @@ design rules under a new name.</description>
 <contactref element="U1" pad="J1"/>
 <contactref element="C17" pad="1"/>
 <contactref element="L3" pad="1"/>
-<wire x1="7.888" y1="4.501" x2="8.366" y2="4.023" width="0.24" layer="1"/>
-<wire x1="8.366" y1="4.023" x2="9.121" y2="4.023" width="0.24" layer="1"/>
+<wire x1="7.888" y1="4.501" x2="8.366" y2="4.023" width="0.29336875" layer="1"/>
+<wire x1="8.366" y1="4.023" x2="9.121" y2="4.023" width="0.29336875" layer="1"/>
 <wire x1="9.121" y1="4.023" x2="9.144" y2="4" width="0.3048" layer="1"/>
-<wire x1="9.144" y1="4" x2="9.9" y2="4" width="0.24" layer="1"/>
+<wire x1="9.144" y1="4" x2="9.9" y2="4" width="0.29336875" layer="1"/>
 </signal>
 <signal name="VDDC">
 <contactref element="U1" pad="A3"/>
@@ -1571,8 +1530,8 @@ design rules under a new name.</description>
 <contactref element="L3" pad="2"/>
 <contactref element="L4" pad="1"/>
 <contactref element="C18" pad="1"/>
-<wire x1="10.9" y1="4" x2="10.9" y2="5" width="0.24" layer="1"/>
-<wire x1="10.9" y1="5" x2="10.9" y2="6.7" width="0.24" layer="1"/>
+<wire x1="10.9" y1="4" x2="10.9" y2="5" width="0.29336875" layer="1"/>
+<wire x1="10.9" y1="5" x2="10.9" y2="6.7" width="0.29336875" layer="1"/>
 </signal>
 <signal name="RXI-0">
 <contactref element="U1" pad="H8"/>
@@ -1667,7 +1626,7 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="L4" pad="2"/>
 <contactref element="A1" pad="FEED"/>
-<wire x1="11.9" y1="6.7" x2="13.5" y2="6.7" width="0.24" layer="1"/>
+<wire x1="11.9" y1="6.7" x2="13.5" y2="6.7" width="0.29336875" layer="1"/>
 </signal>
 <signal name="VDCDCRF">
 <contactref element="U1" pad="G2"/>
