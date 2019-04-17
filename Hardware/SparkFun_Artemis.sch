@@ -3354,6 +3354,28 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.298" y="0.427"/>
 </polygon>
 </package>
+<package name="FIDUCIAL-1X2">
+<description>&lt;h3&gt;Fiducial - Circle, 1mm&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="FIDUCIAL-MICRO">
+<description>&lt;h3&gt;Fiducial - Circle, 0.25in&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="FIDUCIAL-0.2MM">
+<description>&lt;h3&gt;Fiducial - Circle, 0.2mm&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="0.2" dy="0.2" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="0" y="0" radius="0.06" width="0.1524" layer="29"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FRAME-LETTER">
@@ -3541,6 +3563,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="7.27" y="11.2"/>
 </polygon>
 </symbol>
+<symbol name="FIDUCIAL">
+<description>&lt;h3&gt;Fiducial&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-LETTER" prefix="FRAME">
@@ -3672,6 +3703,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </technologies>
 </device>
 <device name=".05_INCH_INTERNAL" package="SFE_LOGO_FLAME_INTERNAL_0.05">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL" prefix="FD">
+<description>&lt;h3&gt;Fiducial Alignment Points&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1X2" package="FIDUCIAL-1X2">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="UFIDUCIAL" package="FIDUCIAL-MICRO">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0.2MM" package="FIDUCIAL-0.2MM">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -5670,6 +5725,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J45" library="Module-Pads" deviceset="PAD" device=".4X.6" value="PAD.4X.6"/>
 <part name="J46" library="Module-Pads" deviceset="PAD" device=".4X.6" value="PAD.4X.6"/>
 <part name="J47" library="Module-Pads" deviceset="PAD" device=".4X.6"/>
+<part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="0.2MM"/>
+<part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="0.2MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -6119,6 +6176,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="J47" gate="G$1" x="170.18" y="119.38" smashed="yes">
 <attribute name="NAME" x="169.164" y="119.634" size="1.778" layer="95" font="vector"/>
 </instance>
+<instance part="FD3" gate="G$1" x="246.38" y="33.02" smashed="yes"/>
+<instance part="FD4" gate="G$1" x="243.84" y="33.02" smashed="yes"/>
 </instances>
 <busses>
 </busses>

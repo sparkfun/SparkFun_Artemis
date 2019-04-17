@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -22,9 +22,9 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -41,11 +41,11 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="12" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="RF_Shield2" color="63" fill="1" visible="no" active="yes"/>
+<layer number="48" name="RF_Shield2" color="63" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="50" name="RF_Shield_Dimensions2" color="47" fill="1" visible="no" active="yes"/>
+<layer number="50" name="RF_Shield_Dimensions2" color="47" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="29" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="29" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -196,7 +196,7 @@
 <text x="-2" y="17" size="0.9" layer="50" font="vector" ratio="15">Dimension: mm</text>
 <text x="-2" y="19" size="0.9" layer="50" font="vector" ratio="15">RF Shield: 
   H:1.2mm
-  Thickness: ~0.2mm
+  Thickness: 0.2mm
 </text>
 <dimension x1="11.8" y1="2.4" x2="11.8" y2="4.15" x3="16.2" y3="3.275" textsize="0.5" textratio="15" layer="50" dtype="horizontal" width="0.05"/>
 <dimension x1="11.8" y1="0.4" x2="11.8" y2="2.4" x3="13.8" y3="1.4" textsize="0.5" textratio="15" layer="50" dtype="vertical" width="0.05"/>
@@ -331,8 +331,8 @@
 <rectangle x1="2.8" y1="1" x2="3.2" y2="1.6" layer="52"/>
 <rectangle x1="1.8" y1="1" x2="2.2" y2="1.6" layer="52"/>
 <rectangle x1="10.8" y1="8.4" x2="11.2" y2="9" layer="52"/>
-<rectangle x1="0.325" y1="0.325" x2="0.675" y2="0.675" layer="52" rot="R180"/>
-<rectangle x1="0.325" y1="9.325" x2="0.675" y2="9.675" layer="52" rot="R180"/>
+<rectangle x1="0.198" y1="0.198" x2="0.802" y2="0.802" layer="52" rot="R180"/>
+<rectangle x1="0.198" y1="9.198" x2="0.802" y2="9.802" layer="52" rot="R180"/>
 <text x="10" y="8.7" size="0.2" layer="49" font="vector" ratio="15" align="center">4</text>
 <text x="3" y="8.7" size="0.2" layer="49" font="vector" ratio="15" align="center">18</text>
 <text x="1.5" y="9.5" size="0.2" layer="49" font="vector" ratio="15" align="center">21</text>
@@ -348,6 +348,7 @@
 <text x="5.5" y="0.5" size="0.2" layer="49" font="vector" ratio="15" align="center">47</text>
 <text x="7.5" y="0.5" size="0.2" layer="49" font="vector" ratio="15" align="center">51</text>
 <text x="0.5" y="0.5" size="0.2" layer="49" font="vector" ratio="15" align="center">38</text>
+<wire x1="1" y1="0.4" x2="11" y2="0.4" width="0.2" layer="48"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -448,6 +449,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.358" y="0.377"/>
 <vertex x="0.298" y="0.427"/>
 </polygon>
+</package>
+<package name="FIDUCIAL-0.2MM">
+<description>&lt;h3&gt;Fiducial - Circle, 0.2mm&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="0.2" dy="0.2" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="0" y="0" radius="0.06" width="0.1524" layer="29"/>
 </package>
 </packages>
 </library>
@@ -1293,6 +1302,8 @@ design rules under a new name.</description>
 <element name="J45" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="4.5" y="0.5" smashed="yes" rot="MR270"/>
 <element name="J46" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="5" y="1.3" smashed="yes" rot="MR270"/>
 <element name="J47" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="5.5" y="0.5" smashed="yes" rot="MR270"/>
+<element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-0.2MM" value="FIDUCIAL0.2MM" x="0.889" y="0.889" smashed="yes"/>
+<element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-0.2MM" value="FIDUCIAL0.2MM" x="11.176" y="9.017" smashed="yes"/>
 </elements>
 <signals>
 <signal name="VDD">
@@ -1430,9 +1441,6 @@ design rules under a new name.</description>
 <wire x1="10.1" y1="6.7" x2="10.1" y2="7.6" width="0.2" layer="1"/>
 <via x="10.1" y="7.6" extent="1-2" drill="0.15"/>
 <via x="9.9" y="5" extent="1-2" drill="0.15"/>
-<wire x1="11.4" y1="0.8" x2="11.4" y2="0.9" width="0.2" layer="1"/>
-<wire x1="8.9" y1="0.9" x2="11.4" y2="0.9" width="0.2" layer="1"/>
-<wire x1="11.049" y1="1" x2="11.273" y2="1" width="0.2" layer="1"/>
 <polygon width="0.1016" layer="1" isolate="0.127">
 <vertex x="11.808" y="10"/>
 <vertex x="11.808" y="0"/>
