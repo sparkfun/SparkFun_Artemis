@@ -5532,7 +5532,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="ANT-11807"/>
+<attribute name="PROD_ID" value="ANT-14377"/>
 </technology>
 </technologies>
 </device>
