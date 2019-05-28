@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -95,7 +95,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="no"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
+<layer number="117" name="PM_Ref" color="26" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="119" name="PF_Ref" color="31" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="WFL_Ref" color="25" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
@@ -4697,17 +4700,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </devices>
 </deviceset>
 <deviceset name="1.0μH" prefix="L" uservalue="yes">
-<description>&lt;h3&gt;2.2μH Inductor&lt;/h3&gt;
+<description>&lt;h3&gt;1.0μH Inductor&lt;/h3&gt;
 &lt;p&gt;Resist changes in electrical current. Basically a coil of wire.&lt;/p&gt;
 &lt;p&gt;SparkFun Products:
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/15170"&gt;SparkFun Edge - HX711&lt;/a&gt;&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/15170"&gt;SparkFun Edge&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-0805_WIDE-1.0μH-1.4A-0.07OHM" package="0805-WIDE">
+<device name="-0805_WIDE-1.0μH-1.4A-0.07OHM-1.4MM_H" package="0805-WIDE">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -4716,6 +4719,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name="">
 <attribute name="PROD_ID" value="NDUC-14237"/>
 <attribute name="VALUE" value="1.0μH"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805_WIDE-1.0μH-1.45A-0.106OHM-1.0MM_H" package="0805-WIDE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-14375" constant="no"/>
+<attribute name="VALUE" value="1.0μH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5625,7 +5640,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C7" library="ambiq" deviceset="6PF" device="-0402-TIGHT-50V-0.5%" value="6pF"/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="L1" library="SparkFun-Coils" deviceset="2.2μH" device="-0805_WIDE-2.2μH-1.7A-0.14OHM" value="2.2μH"/>
-<part name="L2" library="SparkFun-Coils" deviceset="1.0μH" device="-0805_WIDE-1.0μH-1.4A-0.07OHM" value="1.0μH"/>
+<part name="L2" library="SparkFun-Coils" deviceset="1.0μH" device="-0805_WIDE-1.0μH-1.45A-0.106OHM-1.0MM_H" value="1.0μH"/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0402_TIGHT-6.3V-20%-X5R" value="4.7uF"/>
 <part name="C4" library="ambiq" deviceset="1.0UF" device="-0402-TIGHT-16V-10%" value="1.0uF"/>
