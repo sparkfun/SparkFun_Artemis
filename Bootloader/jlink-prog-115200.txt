@@ -23,8 +23,7 @@ w4 0x10000004 0             // offset
 w4 0x10000008 0x800         // length in words
 w4 0x1000000C 0xd894e09e    // info 0 key
 w4 0x10000010 0xFFFFFFFF    // clear return value
-//loadbin info0.bin 0x10001000     //load the info0 binary into sram
-loadbin info0_artemis_47.bin 0x10001000     //load the info0 binary into sram
+loadbin info0_artemis_47_115200.bin 0x10001000     //load the info0 binary into sram
 setPC 0x08000061            // call the ROM helper function flash_program_info_area_from_sram
 g
 sleep 50
