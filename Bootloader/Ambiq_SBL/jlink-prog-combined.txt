@@ -29,6 +29,10 @@ g
 sleep 50
 mem32 0x10000010 1          // dump return value for check
 
+loadbin Artemis_Bootloader_v1.bin 0x0000C000     //load ABL into 0xC000 (end of SBL)
+
+loadbin example1_blink.ino.bin 0x00010000     //load Blink after ABL
+
 // perform software POI
 w4 0x40000004 0x1B
 

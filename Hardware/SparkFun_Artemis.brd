@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1142,193 +1142,193 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="1" y="-13" smashed="yes">
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="1" y="-13">
 <attribute name="DESIGNER" value="" x="81.01" y="-28.24" size="1.778" layer="27" display="off"/>
 <attribute name="REV" value="" x="81.01" y="-28.24" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U1" library="SparkFun-IC-Microcontroller" package="BGA-81-5X5MM" value="AMBIQ-APOLLO3KBR" x="5.888" y="6.501" smashed="yes" rot="R90">
+<element name="U1" library="SparkFun-IC-Microcontroller" package="BGA-81-5X5MM" value="AMBIQ-APOLLO3KBR" x="5.888" y="6.501" rot="R90">
 <attribute name="PROD_ID" value="IC-14228" x="5.888" y="6.501" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="Y1" library="SparkFun-Clocks" package="CRYSTAL-SMD-2.0X1.6MM" value="32MHz" x="8.5" y="2.3" smashed="yes" rot="R180">
+<element name="Y1" library="SparkFun-Clocks" package="CRYSTAL-SMD-2.0X1.6MM" value="32MHz" x="8.5" y="2.3" rot="R180">
 <attribute name="NAME" x="8.5" y="1.2" size="0.6096" layer="25" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="XTAL-13459" x="8.5" y="2.3" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="10.784" y="1.043" size="0.6096" layer="27" ratio="20" align="top-center"/>
 </element>
-<element name="C6" library="ambiq" package="0402-TIGHT" value="6pF" x="8.4" y="0.9" smashed="yes" rot="R180">
+<element name="C6" library="ambiq" package="0402-TIGHT" value="6pF" x="8.4" y="0.9" rot="R180">
 <attribute name="NAME" x="8.4" y="0.338" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-13455" x="8.4" y="0.9" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="8.398" y="0.535" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="C7" library="ambiq" package="0402-TIGHT" value="6pF" x="10.1" y="2.3" smashed="yes" rot="R90">
+<element name="C7" library="ambiq" package="0402-TIGHT" value="6pF" x="10.1" y="2.3" rot="R90">
 <attribute name="NAME" x="9.538" y="2.3" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-13455" x="10.1" y="2.3" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="10.662" y="2.3" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="L1" library="SparkFun-Coils" package="0805-WIDE" value="2.2μH" x="2" y="4.4" smashed="yes" rot="R90">
+<element name="L1" library="SparkFun-Coils" package="0805-WIDE" value="2.2μH" x="2" y="4.4" rot="R90">
 <attribute name="NAME" x="0.911" y="4.4" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="NDUC-14234" x="2" y="4.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="2.2μH" x="0.9704" y="4.3918" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="L2" library="SparkFun-Coils" package="0805-WIDE" value="1.0μH" x="5.2" y="2.3" smashed="yes" rot="R180">
+<element name="L2" library="SparkFun-Coils" package="0805-WIDE" value="1.0μH" x="5.2" y="2.3" rot="R180">
 <attribute name="NAME" x="5.2" y="1.211" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="NDUC-14375" x="5.2" y="2.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="1.0μH" x="5.2" y="3.8" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="C2" library="SparkFun-Capacitors" package="0402-TIGHT" value="4.7uF" x="3.5" y="2.2" smashed="yes" rot="R270">
+<element name="C2" library="SparkFun-Capacitors" package="0402-TIGHT" value="4.7uF" x="3.5" y="2.2" rot="R270">
 <attribute name="NAME" x="4.062" y="2.2" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-14240" x="3.5" y="2.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="3.7" y="-2" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="C4" library="ambiq" package="0402-TIGHT" value="1.0uF" x="6.1" y="0.9" smashed="yes" rot="R180">
+<element name="C4" library="ambiq" package="0402-TIGHT" value="1.0uF" x="6.1" y="0.9" rot="R180">
 <attribute name="NAME" x="6.1" y="0.138" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-12417" x="6.1" y="0.9" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="6" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="C1" library="SparkFun-Capacitors" package="0402-TIGHT" value="0.47uF" x="2.1" y="7.7" smashed="yes" rot="R180">
+<element name="C1" library="SparkFun-Capacitors" package="0402-TIGHT" value="0.47uF" x="2.1" y="7.7" rot="R180">
 <attribute name="NAME" x="2.1" y="6.938" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-14242" x="2.1" y="7.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="0.47uF" x="-1.524" y="7.366" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="C3" library="SparkFun-Capacitors" package="0402-TIGHT" value="2.2uF" x="2.1" y="6.1" smashed="yes" rot="R180">
+<element name="C3" library="SparkFun-Capacitors" package="0402-TIGHT" value="2.2uF" x="2.1" y="6.1" rot="R180">
 <attribute name="NAME" x="2.1" y="5.338" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-14232" x="2.1" y="6.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-1.27" y="5.715" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 <attribute name="VALUE" value="2.2uF" x="2.1" y="6.1" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C5" library="SparkFun-Capacitors" package="0402-TIGHT" value="2.2uF" x="4.3" y="0.9" smashed="yes" rot="R180">
+<element name="C5" library="SparkFun-Capacitors" package="0402-TIGHT" value="2.2uF" x="4.3" y="0.9" rot="R180">
 <attribute name="NAME" x="4.3" y="0.138" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-14232" x="4.3" y="0.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="4.4" y="-0.7" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 <attribute name="VALUE" value="2.2uF" x="4.3" y="0.9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C8" library="SparkFun-Capacitors" package="0402-TIGHT" value="2.2uF" x="6.8" y="2.3" smashed="yes" rot="R270">
+<element name="C8" library="SparkFun-Capacitors" package="0402-TIGHT" value="2.2uF" x="6.8" y="2.3" rot="R270">
 <attribute name="NAME" x="7.562" y="2.3" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-14232" x="6.8" y="2.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="7.228" y="-1.37" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 <attribute name="VALUE" value="2.2uF" x="6.8" y="2.3" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C12" library="ambiq" package="0402-TIGHT" value="1.0uF" x="1.1" y="2.2" smashed="yes" rot="R270">
+<element name="C12" library="ambiq" package="0402-TIGHT" value="1.0uF" x="1.1" y="2.2" rot="R270">
 <attribute name="NAME" x="1.862" y="2.2" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-12417" x="1.1" y="2.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="1.0uF" x="1.1" y="2.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="1.397" y="-1.397" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="C13" library="ambiq" package="0402-TIGHT" value="1.0uF" x="9.6" y="7.6" smashed="yes">
+<element name="C13" library="ambiq" package="0402-TIGHT" value="1.0uF" x="9.6" y="7.6">
 <attribute name="NAME" x="9.6" y="8.362" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-12417" x="9.6" y="7.6" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="1.0uF" x="9.6" y="7.6" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="11.557" y="7.112" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="C14" library="ambiq" package="0402-TIGHT" value="1.0uF" x="2.1" y="6.9" smashed="yes" rot="R180">
+<element name="C14" library="ambiq" package="0402-TIGHT" value="1.0uF" x="2.1" y="6.9" rot="R180">
 <attribute name="NAME" x="2.1" y="6.138" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-12417" x="2.1" y="6.9" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="-1.143" y="6.604" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="C15" library="ambiq" package="0402-TIGHT" value="1.0uF" x="9.6" y="6.7" smashed="yes">
+<element name="C15" library="ambiq" package="0402-TIGHT" value="1.0uF" x="9.6" y="6.7">
 <attribute name="NAME" x="9.6" y="7.462" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-12417" x="9.6" y="6.7" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="11.557" y="6.35" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="C11" library="SparkFun-Capacitors" package="0402-TIGHT" value="47nF" x="9.588" y="5.799" smashed="yes">
+<element name="C11" library="SparkFun-Capacitors" package="0402-TIGHT" value="47nF" x="9.588" y="5.799">
 <attribute name="NAME" x="9.588" y="6.561" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-14243" x="9.588" y="5.799" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="11.43" y="5.461" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="C16" library="SparkFun-Capacitors" package="0402-TIGHT" value="2.2uF" x="1.9" y="2.2" smashed="yes" rot="R270">
+<element name="C16" library="SparkFun-Capacitors" package="0402-TIGHT" value="2.2uF" x="1.9" y="2.2" rot="R270">
 <attribute name="NAME" x="2.662" y="2.2" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-14232" x="1.9" y="2.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="2.159" y="-1.397" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 <attribute name="VALUE" value="2.2uF" x="1.9" y="2.2" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C17" library="ambiq" package="0402-TIGHT" value="DNP" x="9.121" y="4.523" smashed="yes" rot="R90">
+<element name="C17" library="ambiq" package="0402-TIGHT" value="DNP" x="9.121" y="4.523" rot="R90">
 <attribute name="NAME" x="8.559" y="4.523" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="8.128" y="4.572" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="L3" library="SparkFun-Coils" package="0402-TIGHT" value="2.7nH/?%/900mA/70mOhm" x="10.4" y="4" smashed="yes">
+<element name="L3" library="SparkFun-Coils" package="0402-TIGHT" value="2.7nH/?%/900mA/70mOhm" x="10.4" y="4">
 <attribute name="NAME" x="10.4" y="4.562" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="NDUC-14236" x="10.4" y="4" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="2.7nH/?%/900mA/70mOhm" x="16.891" y="3.81" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="C18" library="SparkFun-Capacitors" package="0402-TIGHT" value="0.5pF" x="10.4" y="5" smashed="yes" rot="R180">
+<element name="C18" library="SparkFun-Capacitors" package="0402-TIGHT" value="0.5pF" x="10.4" y="5" rot="R180">
 <attribute name="NAME" x="10.4" y="4.438" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-14231" x="10.4" y="5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="12.446" y="5.334" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="L4" library="SparkFun-Coils" package="0402-TIGHT" value="2nH/?%/200mA/300mOhm" x="11.8" y="8" smashed="yes">
+<element name="L4" library="SparkFun-Coils" package="0402-TIGHT" value="2nH/?%/200mA/300mOhm" x="11.8" y="8">
 <attribute name="NAME" x="11.8" y="8.562" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="NDUC-14238" x="11.8" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="2nH/?%/200mA/300mOhm" x="19.939" y="7.747" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="A1" library="SparkFun-RF" package="ANT-2.4GHZ-8.0X1.0MM" value="2.4GHZ-3.2X1.6MM" x="13.5" y="5" smashed="yes" rot="R270">
+<element name="A1" library="SparkFun-RF" package="ANT-2.4GHZ-8.0X1.0MM" value="2.4GHZ-3.2X1.6MM" x="13.5" y="5" rot="R270">
 <attribute name="PROD_ID" value="ANT-14377" x="13.5" y="5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R2" library="SparkFun-Resistors" package="0402-TIGHT" value="0" x="2.7" y="2.2" smashed="yes" rot="R270">
+<element name="R2" library="SparkFun-Resistors" package="0402-TIGHT" value="0" x="2.7" y="2.2" rot="R270">
 <attribute name="NAME" x="3.262" y="2.2" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-14244" x="2.7" y="2.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="2.9" y="-1.5" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="J10" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="7" y="8.7" smashed="yes" rot="MR90"/>
-<element name="J2" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="11" y="8.7" smashed="yes" rot="MR270"/>
-<element name="J7" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="8.5" y="9.5" smashed="yes" rot="MR270"/>
-<element name="J32" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="1.3" y="4" smashed="yes" rot="MR0"/>
-<element name="J26" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="1.3" y="7" smashed="yes" rot="MR180"/>
-<element name="J28" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="1.3" y="6" smashed="yes" rot="MR180"/>
-<element name="J19" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="2.5" y="9.5" smashed="yes" rot="MR90"/>
-<element name="J35" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="0.5" y="2.5" smashed="yes" rot="MR0"/>
-<element name="J34" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="1.3" y="3" smashed="yes" rot="MR0"/>
-<element name="J16" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="4" y="8.7" smashed="yes" rot="MR90"/>
-<element name="J25" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="0.5" y="7.5" smashed="yes" rot="MR0"/>
-<element name="J27" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="0.5" y="6.5" smashed="yes" rot="MR0"/>
-<element name="J21" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="1.5" y="9.5" smashed="yes" rot="MR90"/>
-<element name="J33" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="0.5" y="3.5" smashed="yes" rot="MR180"/>
-<element name="J24" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="1.3" y="8" smashed="yes" rot="MR0"/>
-<element name="J14" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="5" y="8.7" smashed="yes" rot="MR90"/>
-<element name="J23" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="0.5" y="8.5" smashed="yes" rot="MR180"/>
-<element name="J13" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="5.5" y="9.5" smashed="yes" rot="MR270"/>
-<element name="J12" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="6" y="8.7" smashed="yes" rot="MR270"/>
-<element name="J4" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="10" y="8.7" smashed="yes" rot="MR270"/>
-<element name="J5" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="9.5" y="9.5" smashed="yes" rot="MR270"/>
-<element name="J58" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="11" y="1.3" smashed="yes" rot="MR270"/>
-<element name="J36" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="1.3" y="2" smashed="yes" rot="MR180"/>
-<element name="J50" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="7" y="1.3" smashed="yes" rot="MR90"/>
-<element name="J9" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="7.5" y="9.5" smashed="yes" rot="MR90"/>
-<element name="J3" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="10.5" y="9.5" smashed="yes" rot="MR90"/>
-<element name="J30" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="1.3" y="5" smashed="yes" rot="MR180"/>
-<element name="J44" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="4" y="1.3" smashed="yes" rot="MR90"/>
-<element name="J1" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="11.5" y="9.5" smashed="yes" rot="MR270"/>
-<element name="J59" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="11.5" y="0.5" smashed="yes" rot="MR270"/>
-<element name="J22" library="Module-Pads" package="MODULE_MINI_PAD" value="PAD.35X.35" x="0.5" y="9.5" smashed="yes" rot="MR90"/>
-<element name="J52" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="8" y="1.3" smashed="yes" rot="MR90"/>
-<element name="J56" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="10" y="1.3" smashed="yes" rot="MR270"/>
-<element name="J53" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="8.5" y="0.5" smashed="yes" rot="MR90"/>
-<element name="J55" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="9.5" y="0.5" smashed="yes" rot="MR90"/>
-<element name="J57" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="10.5" y="0.5" smashed="yes" rot="MR270"/>
-<element name="J17" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="3.5" y="9.5" smashed="yes" rot="MR270"/>
-<element name="J15" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="4.5" y="9.5" smashed="yes" rot="MR270"/>
-<element name="J11" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="6.5" y="9.5" smashed="yes" rot="MR270"/>
-<element name="J8" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="8" y="8.7" smashed="yes" rot="MR270"/>
-<element name="J38" library="Module-Pads" package="MODULE_MINI_PAD" value="PAD.35X.35" x="0.5" y="0.5" smashed="yes" rot="MR0"/>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_INTERNAL_0.05" value="SFE_LOGO_FLAME.05_INCH_INTERNAL" x="9.525" y="7.874" smashed="yes"/>
-<element name="J6" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="9" y="8.7" smashed="yes" rot="MR270"/>
-<element name="J39" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="1.5" y="0.5" smashed="yes" rot="MR90"/>
-<element name="J37" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="0.5" y="1.5" smashed="yes" rot="MR0"/>
-<element name="J51" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="7.5" y="0.5" smashed="yes" rot="MR270"/>
-<element name="J49" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="6.5" y="0.5" smashed="yes" rot="MR270"/>
-<element name="J48" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="6" y="1.3" smashed="yes" rot="MR270"/>
-<element name="J54" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="9" y="1.3" smashed="yes" rot="MR270"/>
-<element name="J20" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="2" y="8.7" smashed="yes" rot="MR90"/>
-<element name="J29" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="0.5" y="5.5" smashed="yes" rot="MR0"/>
-<element name="J42" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="3" y="1.3" smashed="yes" rot="MR270"/>
-<element name="J43" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="3.5" y="0.5" smashed="yes" rot="MR270"/>
-<element name="J41" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="2.5" y="0.5" smashed="yes" rot="MR270"/>
-<element name="J40" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="2" y="1.3" smashed="yes" rot="MR270"/>
-<element name="J18" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="3" y="8.7" smashed="yes" rot="MR90"/>
-<element name="J31" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="0.5" y="4.5" smashed="yes" rot="MR180"/>
-<element name="J45" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="4.5" y="0.5" smashed="yes" rot="MR270"/>
-<element name="J46" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="5" y="1.3" smashed="yes" rot="MR270"/>
-<element name="J47" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="5.5" y="0.5" smashed="yes" rot="MR270"/>
-<element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-0.2MM" value="FIDUCIAL0.2MM" x="0.889" y="0.889" smashed="yes"/>
-<element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-0.2MM" value="FIDUCIAL0.2MM" x="11.176" y="9.017" smashed="yes"/>
+<element name="J10" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="7" y="8.7" rot="MR90"/>
+<element name="J2" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="11" y="8.7" rot="MR270"/>
+<element name="J7" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="8.5" y="9.5" rot="MR270"/>
+<element name="J32" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="1.3" y="4" rot="MR0"/>
+<element name="J26" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="1.3" y="7" rot="MR180"/>
+<element name="J28" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="1.3" y="6" rot="MR180"/>
+<element name="J19" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="2.5" y="9.5" rot="MR90"/>
+<element name="J35" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="0.5" y="2.5" rot="MR0"/>
+<element name="J34" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="1.3" y="3" rot="MR0"/>
+<element name="J16" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="4" y="8.7" rot="MR90"/>
+<element name="J25" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="0.5" y="7.5" rot="MR0"/>
+<element name="J27" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="0.5" y="6.5" rot="MR0"/>
+<element name="J21" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="1.5" y="9.5" rot="MR90"/>
+<element name="J33" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="0.5" y="3.5" rot="MR180"/>
+<element name="J24" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="1.3" y="8" rot="MR0"/>
+<element name="J14" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="5" y="8.7" rot="MR90"/>
+<element name="J23" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="0.5" y="8.5" rot="MR180"/>
+<element name="J13" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="5.5" y="9.5" rot="MR270"/>
+<element name="J12" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="6" y="8.7" rot="MR270"/>
+<element name="J4" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="10" y="8.7" rot="MR270"/>
+<element name="J5" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="9.5" y="9.5" rot="MR270"/>
+<element name="J58" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="11" y="1.3" rot="MR270"/>
+<element name="J36" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="1.3" y="2" rot="MR180"/>
+<element name="J50" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="7" y="1.3" rot="MR90"/>
+<element name="J9" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="7.5" y="9.5" rot="MR90"/>
+<element name="J3" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="10.5" y="9.5" rot="MR90"/>
+<element name="J30" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="1.3" y="5" rot="MR180"/>
+<element name="J44" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="4" y="1.3" rot="MR90"/>
+<element name="J1" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="11.5" y="9.5" rot="MR270"/>
+<element name="J59" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="11.5" y="0.5" rot="MR270"/>
+<element name="J22" library="Module-Pads" package="MODULE_MINI_PAD" value="PAD.35X.35" x="0.5" y="9.5" rot="MR90"/>
+<element name="J52" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="8" y="1.3" rot="MR90"/>
+<element name="J56" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="10" y="1.3" rot="MR270"/>
+<element name="J53" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="8.5" y="0.5" rot="MR90"/>
+<element name="J55" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="9.5" y="0.5" rot="MR90"/>
+<element name="J57" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="10.5" y="0.5" rot="MR270"/>
+<element name="J17" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="3.5" y="9.5" rot="MR270"/>
+<element name="J15" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="4.5" y="9.5" rot="MR270"/>
+<element name="J11" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="6.5" y="9.5" rot="MR270"/>
+<element name="J8" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="8" y="8.7" rot="MR270"/>
+<element name="J38" library="Module-Pads" package="MODULE_MINI_PAD" value="PAD.35X.35" x="0.5" y="0.5" rot="MR0"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_INTERNAL_0.05" value="SFE_LOGO_FLAME.05_INCH_INTERNAL" x="9.525" y="7.874"/>
+<element name="J6" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="9" y="8.7" rot="MR270"/>
+<element name="J39" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="1.5" y="0.5" rot="MR90"/>
+<element name="J37" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="0.5" y="1.5" rot="MR0"/>
+<element name="J51" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="7.5" y="0.5" rot="MR270"/>
+<element name="J49" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="6.5" y="0.5" rot="MR270"/>
+<element name="J48" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="6" y="1.3" rot="MR270"/>
+<element name="J54" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="9" y="1.3" rot="MR270"/>
+<element name="J20" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="2" y="8.7" rot="MR90"/>
+<element name="J29" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="0.5" y="5.5" rot="MR0"/>
+<element name="J42" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="3" y="1.3" rot="MR270"/>
+<element name="J43" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="3.5" y="0.5" rot="MR270"/>
+<element name="J41" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="2.5" y="0.5" rot="MR270"/>
+<element name="J40" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="2" y="1.3" rot="MR270"/>
+<element name="J18" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="3" y="8.7" rot="MR90"/>
+<element name="J31" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="0.5" y="4.5" rot="MR180"/>
+<element name="J45" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="4.5" y="0.5" rot="MR270"/>
+<element name="J46" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="5" y="1.3" rot="MR270"/>
+<element name="J47" library="Module-Pads" package="MODULE_PAD" value="PAD.4X.6" x="5.5" y="0.5" rot="MR270"/>
+<element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-0.2MM" value="FIDUCIAL0.2MM" x="0.889" y="0.889"/>
+<element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-0.2MM" value="FIDUCIAL0.2MM" x="11.176" y="9.017"/>
 </elements>
 <signals>
 <signal name="VDD">
