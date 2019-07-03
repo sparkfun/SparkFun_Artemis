@@ -28,8 +28,6 @@ Documentation
 * **[Designing with the SparkFun Artemis](https://learn.sparkfun.com/tutorials/designing-with-the-sparkfun-artemis)** - Layout and design considerations when using the Artemis module.
 * **[Artemis Development with Arduino](https://learn.sparkfun.com/tutorials/artemis-development-with-arduino)** - Introduction to the Arduino core for the Artemis Module.
 * **[Using SparkFun Edge Board with Ambiq Apollo3 SDK](https://learn.sparkfun.com/tutorials/using-sparkfun-edge-board-with-ambiq-apollo3-sdk)** - Getting set up with the Apollo3 Software Development Kit.
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
-
 
 
 License Information
