@@ -1,7 +1,7 @@
 SparkFun Artemis
 ============================
 
-[![SparkFun Artemis](https://cdn.sparkfun.com//assets/parts/1/3/9/2/5/WRL-15376-1.jpg)  
+[![SparkFun Artemis](https://cdn.sparkfun.com/assets/parts/1/3/9/2/5/15376-SparkFun_Artemis_Module_-_Engineering_Version-02.jpg)
 *SparkFun Artemis Module (SPX-15332)*](https://www.sparkfun.com/products/15332)
 
 The Artemis Module from SparkFun is the first product to bridge the market between hobbyists and consumer products. We've exhaustively packaged all the power of a modern microcontroller into a module that is both extremely easy to use but is mass-market ready. 
@@ -20,6 +20,15 @@ Repository Contents
 * **/Bootloader** - Tools for loading the Artemis with Ambiq's secure bootloader
 * **/Documentation** - Data sheets, additional product information
 * **/Hardware** - Eagle design files (.brd, .sch)
+
+
+Documentation
+-------------------
+* **[Designing with the SparkFun Artemis](https://learn.sparkfun.com/tutorials/designing-with-the-sparkfun-artemis)** - Layout and design considerations when using the Artemis module.
+* **[Artemis Development with Arduino](https://learn.sparkfun.com/tutorials/artemis-development-with-arduino)** - Introduction to the Arduino core for the Artemis Module.
+* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
+
+
 
 License Information
 -------------------
