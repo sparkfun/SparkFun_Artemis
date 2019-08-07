@@ -1,7 +1,7 @@
 Artemis Bootloader
 ==========================
 
-The Artemis module is loaded with two bootloaders: the SBL and ABL. The Ambiq Secure Boot Loader (SBL) resides from 0x00 to 0xC000. This bootloader is physically part of the IC and is configured using the info0 registers. At power up, if the SBL is not activated, it jumps to 0xC000. The SparkFun Artemis Bootloader (ABL) resides at 0xC000 and will broadcast a character at POR. If the correct response is received, the ABL will negotiate a bootload speed, then jump to user code starting at 0x10000. The ABL times out after 50ms.
+The Artemis module is loaded with two bootloaders: the ASB and SVL. The Ambiq Secure Boot Loader (ASB) resides from 0x00 to 0xC000. This bootloader is physically part of the IC and is configured using the info0 registers. At power up, if the ASB is not activated, it jumps to 0xC000. The SparkFun Variable Bootloader (SVL) resides at 0xC000 and will wait for an incoming serial character. If a character is received, the baud rate will be auto-detected, the SVL will load new code, then jump to the new user code starting at 0x10000. The SVL times out after 50ms.
 
 This directory contains the various binaries that are programmed onto each Artemis module:
 
@@ -9,9 +9,9 @@ This directory contains the various binaries that are programmed onto each Artem
 * Artemis_Bootloader_v10.bin - the ABL, starts at 0xC000
 * example1_blink.ino.bin - An example sketch to blink the LED. This shows code has been loaded but will be overwritten with new sketches.
 
-For more information on the Artemis Bootloader see the Artemis Bootloader sketch in the SparkFun_BL directory in this repo.
+For more information on the Artemis Bootloader see the Artemis Bootloader in the [Arduino_Apollo3 repo](https://github.com/sparkfun/Arduino_Apollo3/tree/master/bootloaders/artemis/!artemis_svl).
 
-The SBL is configured based on the documents from Ambiq. See \AmbiqSuite-Rel2.x.x\docs\secure_bootloader\ for how to modify the SBL/info0 image. 
+The ASB is configured based on the documents from Ambiq (Ambiq calls it the secure bootloader or SBL). See \AmbiqSuite-Rel2.x.x\docs\secure_bootloader\ for how to modify the info0 image. 
 
 * Run the bootloader at 921600bps: --u0 0x1C299c0
 * Currently pin 47 is used for BOOTLOAD: --gpio 0x2f

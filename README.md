@@ -1,7 +1,7 @@
 SparkFun Artemis
 ============================
 
-[![SparkFun Artemis](https://cdn.sparkfun.com/assets/parts/1/3/9/2/5/15376-SparkFun_Artemis_Module_-_Engineering_Version-02.jpg)
+[![SparkFun Artemis](https://cdn.sparkfun.com/assets/parts/1/3/9/2/5/15376-SparkFun_Artemis_Module_-_Engineering_Version-02.jpg)](https://www.sparkfun.com/products/15332)
 
 [*SparkFun Artemis Module (SPX-15332)*](https://www.sparkfun.com/products/15332)
 
