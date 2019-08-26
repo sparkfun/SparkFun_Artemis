@@ -5,8 +5,8 @@ The Artemis module is loaded with two bootloaders: the ASB and SVL. The Ambiq Se
 
 This directory contains the various binaries that are programmed onto each Artemis module:
 
-* info0_artemis_47_115200.bin - Sets the SBL to 115200bps with boot pin on 47
-* Artemis_Bootloader_v10.bin - the ABL, starts at 0xC000
+* info0_artemis_47_115200.bin - Sets the Ambiq Secure Bootloader (ASB) to 115200bps with boot pin on 47
+* artemis_svl.bin - the SparkFun Variable Loader (SVL), starts at 0xC000
 * example1_blink.ino.bin - An example sketch to blink the LED. This shows code has been loaded but will be overwritten with new sketches.
 
 For more information on the Artemis Bootloader see the Artemis Bootloader in the [Arduino_Apollo3 repo](https://github.com/sparkfun/Arduino_Apollo3/tree/master/bootloaders/artemis/!artemis_svl).
