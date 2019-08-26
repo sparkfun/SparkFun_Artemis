@@ -22,4 +22,4 @@ This was used for Artemis v10 module that used pin 47 for boot:
 
     create_info0.py --valid 1 info0_artemis_47 --pl 1 --u0 0x1C200c0 --u1 0xFFFF3031 --u2 0x2 --u3 0x0 --u4 0x0 --u5 0x0 --main 0xC000 --gpio 0x2f --version 0 --wTO 2500 --gpiolvl 1
 
-We load a conservative 115200bps image into the Ambiq SBL section so that future updates can be applied. The SparkFun Artemis Bootloader is a variable bootloader capable of operating from 9600bps to 921600bps.
+We load a conservative 115200bps image into the Ambiq ASB section so that future updates can be applied. The SparkFun Variable Loader is a variable bootloader capable of operating from 9600bps to 921600bps.
