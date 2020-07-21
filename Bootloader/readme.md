@@ -9,7 +9,9 @@ This directory contains the various binaries that are programmed onto each Artem
 * artemis_svl.bin - the SparkFun Variable Loader (SVL), starts at 0xC000
 * example1_blink.ino.bin - An example sketch to blink the LED. This shows code has been loaded but will be overwritten with new sketches.
 
-For more information on the Artemis Bootloader see the Artemis Bootloader in the [Arduino_Apollo3 repo](https://github.com/sparkfun/Arduino_Apollo3/tree/master/bootloaders/artemis/!artemis_svl).
+The code for the bootloader can be found in the [Apollo3 BSP](https://github.com/sparkfun/SparkFun_Apollo3_AmbiqSuite_BSPs/tree/master/common/examples/artemis_svl).
+
+The bootloader for the Artemis can be upgraded via Arduino using [these instructions](https://learn.sparkfun.com/tutorials/designing-with-the-sparkfun-artemis/all#troubleshooting). It can also be upgraded using the [Artemis Firmware Upload GUI](https://github.com/sparkfun/Artemis-Firmware-Upload-GUI).
 
 The ASB is configured based on the documents from Ambiq (Ambiq calls it the secure bootloader or SBL). See \AmbiqSuite-Rel2.x.x\docs\secure_bootloader\ for how to modify the info0 image. 
 
@@ -22,4 +24,4 @@ This was used for Artemis v10 module that used pin 47 for boot:
 
     create_info0.py --valid 1 info0_artemis_47 --pl 1 --u0 0x1C200c0 --u1 0xFFFF3031 --u2 0x2 --u3 0x0 --u4 0x0 --u5 0x0 --main 0xC000 --gpio 0x2f --version 0 --wTO 2500 --gpiolvl 1
 
-We load a conservative 115200bps image into the Ambiq ASB section so that future updates can be applied. The SparkFun Variable Loader is a variable bootloader capable of operating from 9600bps to 921600bps.
+We load a conservative 115200bps image into the Ambiq ASB section so that future updates can be applied. The SparkFun Variable Loader is a variable bootloader capable of operating from 115200bps to 921600bps.
